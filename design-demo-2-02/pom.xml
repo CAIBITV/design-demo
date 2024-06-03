@@ -9,8 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>design-demo-2-01</artifactId>
-    <description>抽象工厂 反例</description>
+    <artifactId>design-demo-2-02</artifactId>
 
     <dependencies>
         <dependency>
