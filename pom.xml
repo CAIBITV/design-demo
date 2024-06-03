@@ -19,6 +19,7 @@
         <module>demo-log</module>
         <module>design-demo-1-00</module>
         <module>design-demo-1-01</module>
+        <module>design-demo-1-02</module>
     </modules>
 
     <dependencies>
