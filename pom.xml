@@ -24,6 +24,7 @@
         <module>design-demo-2-01</module>
         <module>design-demo-2-02</module>
         <module>design-demo-3-00</module>
+        <module>design-demo-3-01</module>
     </modules>
 
     <dependencies>
