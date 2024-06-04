@@ -9,15 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>design-demo-2-02</artifactId>
-    <description>抽象工厂 重构</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>top.caibitv</groupId>
-            <artifactId>design-demo-2-00</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+    <artifactId>design-demo-3-00</artifactId>
+    <description>建造者模式 场景模拟</description>
 
 </project>
