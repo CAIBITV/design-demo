@@ -16,7 +16,9 @@ import org.springframework.stereotype.Component;
 import top.caibitv.demo.design.door.annotation.DoDoor;
 import top.caibitv.demo.design.door.config.StarterService;
 
+import java.lang.reflect.Array;
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 /**
  * 切面定义
@@ -46,6 +48,7 @@ public class DoJoinPoint {
 
         // 配置内容
         String[] split = starterService.split(",");
+        // logger.info("caibitv door handler split：{}", Arrays.toString(split));
         // 白名单过滤
         for (String str : split) {
             if (keyValue.equals(str)) {

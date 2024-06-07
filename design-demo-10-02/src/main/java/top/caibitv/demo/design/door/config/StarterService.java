@@ -1,7 +1,5 @@
 package top.caibitv.demo.design.door.config;
 
-import org.springframework.util.StringUtils;
-
 /**
  * 配置服务类
  */
@@ -14,6 +12,6 @@ public class StarterService {
     }
 
     public String[] split(String separatorChar) {
-        return StringUtils.split(this.userStr, separatorChar);
+        return this.userStr.split(separatorChar);
     }
 }
