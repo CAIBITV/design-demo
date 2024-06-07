@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import top.caibitv.demo.design.domain.UserInfo;
+import top.caibitv.demo.design.door.annotation.DoDoor;
 
 /**
  * 公众号：bugstack虫洞栈 | 沉淀、分享、成长，让自己和他人都能有所收获！
@@ -26,6 +27,7 @@ public class HelloWorldController {
      * http://localhost:8080/api/queryUserInfo?userId=1001
      * http://localhost:8080/api/queryUserInfo?userId=小团团
      */
+    @DoDoor(key = "userId", returnJson = "{\"code\":\"1111\",\"info\":\"非白名单可访问用户拦截！\"}")
     @RequestMapping(path = "/api/queryUserInfo", method = RequestMethod.GET)
     public UserInfo queryUserInfo(@RequestParam String userId) {
         System.out.println(port + "号端口服务被调用");
