@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>design-demo-10-00</artifactId>
-    <description>外观模式(门面模式) 场景模拟</description>
+    <description>外观(门面)模式 场景模拟</description>
 
     <packaging>war</packaging>
 
