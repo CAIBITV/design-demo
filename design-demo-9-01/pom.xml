@@ -9,7 +9,14 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>design-demo-9-00</artifactId>
-    <description>装饰器模式 场景模拟</description>
+    <artifactId>design-demo-9-01</artifactId>
+    <description>装饰器模式 反例</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>top.caibitv</groupId>
+            <artifactId>design-demo-9-00</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
