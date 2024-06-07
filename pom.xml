@@ -39,6 +39,7 @@
         <module>design-demo-8-02</module>
         <module>design-demo-9-00</module>
         <module>design-demo-9-01</module>
+        <module>design-demo-9-02</module>
     </modules>
 
     <dependencies>
