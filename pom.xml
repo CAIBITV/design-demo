@@ -46,6 +46,8 @@
         <module>design-demo-11-01</module>
         <module>design-demo-11-02</module>
         <module>design-demo-12-00</module>
+        <module>design-demo-13-00</module>
+        <module>design-demo-13-01</module>
     </modules>
 
     <dependencies>
