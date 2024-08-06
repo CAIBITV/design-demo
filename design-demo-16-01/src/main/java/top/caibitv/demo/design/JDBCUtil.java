@@ -10,11 +10,11 @@ public class JDBCUtil {
 
     private static Logger logger = LoggerFactory.getLogger(JDBCUtil.class);
 
-    private static final String URL = "jdbc:mysql://127.0.0.1:23306/ruoyi_pet";
+    private static final String URL = "jdbc:mysql://117.72.64.165:23306/ruoyi_pet";
 
     private static final String USER = "root";
 
-    private static final String PASSWORD = "123456";
+    private static final String PASSWORD = "yyt14588";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // 1.加载驱动程序
