@@ -56,6 +56,8 @@
         <module>design-demo-16-01</module>
         <module>design-demo-16-02</module>
         <module>design-demo-17-00</module>
+        <module>design-demo-18-00</module>
+        <module>design-demo-18-01</module>
     </modules>
 
     <dependencies>
