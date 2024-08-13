@@ -61,6 +61,7 @@
         <module>design-demo-18-02</module>
         <module>design-demo-19-00</module>
         <module>design-demo-19-01</module>
+        <module>design-demo-19-02</module>
     </modules>
 
     <dependencies>
